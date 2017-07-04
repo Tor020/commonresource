@@ -1,0 +1,33 @@
+.st {
+  text-decoration: line-through;
+}
+
+.todo>ul>li>a {
+
+}
+
+span>a {
+  text-decoration: none;
+  color:white;
+  border-bottom:1px solid transparent;
+  transition:all 500ms ease;
+}
+span>a:hover {border-bottom:1px solid green;color:green;}
+              
+body {
+  background-image: url('../textures/blktri.png');
+  margin: 5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+#back{
+
+ position:relative;
+ left:40%;
+}
+
+#gist{
+ position:relative;
+  left:50%;
+}

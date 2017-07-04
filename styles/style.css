@@ -1,0 +1,254 @@
+.st{text-decoration:line-through;}
+.todo>ul>li>a{color:white;}
+span>a{text-decoration: none;
+color:black;}
+div {
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+}
+
+li{
+list-style: none; /* Remove list bullets */
+
+}
+
+a{
+  text-decoration:none;
+  
+}
+
+.memes{
+  letter-spacing: 2.5px;
+}
+.c2Steal {
+  display: none;
+}
+
+.flex-c2Steal {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.extra {
+  display: none;
+}
+
+.flex-extra {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  height: 20vh;
+  margin: 3%;
+}
+
+.css {
+  display: none;
+}
+
+.flex-css {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.utilities {
+  display: none;
+}
+
+.flex-util {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  height: 20vh;
+  margin: 3%;
+}
+
+.displayjsdiv {
+  display: none;
+}
+
+.jsnavigation {
+  display: none;
+}
+
+button {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px / 5px 5px 7px;
+  box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 0.2);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+}
+
+button:active {
+  box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  color: #51d04a;
+  background-color: #607d8b;
+  box-shadow: 10em 10em 11px 0 rgba(29, 63, 7, 1) inset;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+  background-image: url('../textures/blktri.png');
+  margin: 5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  color: #0095dd;
+  font-size: 2.25em;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+}
+
+
+.nav {
+  padding-left:20px;
+  padding-bottom:20px;
+  margin: 5px;
+  background-image: url('../textures/whitebump.png');
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  flex: 1 1 auto;
+}
+
+.nav h4 {
+  text-align: center;
+}
+
+.nav a {
+  color: #333;
+  font-size: .85em;
+}
+
+.section {
+  padding: 1.5em;
+}
+
+.section h3 {
+  color: #0095dd;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.section a {
+  color: #333;
+  font-size: .85em;
+}
+
+.section .up {
+  color: #e74c3c;
+}
+
+.syntax {
+  background: #826969;
+  color: black;
+  margin: 10px 0;
+  border: solid thin #ddd;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-box-shadow: 2px 7px 1px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 7px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.syntax span {
+  counter-increment: linecounter;
+}
+
+.syntax span:before {
+  content: counter(linecounter);
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  margin-right: 10px;
+  font-style: normal !important;
+  color: #555 !important;
+}
+
+#template {
+  display: none;
+}
+
+.num {
+  font-weight: 600;
+  color: #d0782a;
+}
+
+[class*=var] {
+  font-weight: 600;
+}
+
+.clr {
+  border-radius: 1px;
+  color: white;
+  font-weight: 400;
+}
+
+.str,
+.str i {
+  color: #ddca7e !important;
+  font-weight: 400 !important;
+}
+
+.reg,
+.reg i {
+  color: #ddca7e !important;
+  font-weight: 500 !important;
+}
+
+.cmnt,
+.cmnt i {
+  color: #bbb !important;
+  font-weight: 400 !important;
+}
+
+@media (max-width: 400px) {
+  .syntax {
+    font-size: 12px;
+  }
+}
+
+a:hover{
+    color: #51d04a;
+  background-color: #607d8b;
+}
